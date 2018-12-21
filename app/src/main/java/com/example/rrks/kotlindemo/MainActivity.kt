@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.*
+import com.example.rrks.kotlindemo.weight.ColorfulTextView
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -26,6 +27,9 @@ class MainActivity : AppCompatActivity() {
         findViewById<Button>(R.id.button).setOnClickListener {
             show()
         }
+
+//        val ctv: ColorfulTextView = findViewById(R.id.ctv)
+//        ctv.text = "点击"
 
     }
 
@@ -53,8 +57,8 @@ class MainActivity : AppCompatActivity() {
         javaDemo.num
     }
 
-    private fun getString(string: String):String{
-        return "ggggggggggggggggggggg"+string
+    private fun getString(string: String): String {
+        return "ggggggggggggggggggggg" + string
     }
 
 
