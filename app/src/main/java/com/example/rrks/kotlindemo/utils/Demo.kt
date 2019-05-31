@@ -1,4 +1,4 @@
-package com.example.rrks.kotlindemo
+package com.example.rrks.kotlindemo.utils
 
 import android.support.v7.app.AppCompatActivity
 

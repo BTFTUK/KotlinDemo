@@ -1,4 +1,4 @@
-package com.example.rrks.kotlindemo;
+package com.example.rrks.kotlindemo.utils;
 
 public class JavaDemo {
     private int num;

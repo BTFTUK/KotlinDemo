@@ -1,10 +1,14 @@
-package com.example.rrks.kotlindemo
+package com.example.rrks.kotlindemo.activity
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.*
-import com.example.rrks.kotlindemo.weight.ColorfulTextView
+import com.example.rrks.kotlindemo.*
+import com.example.rrks.kotlindemo.utils.Demo
+import com.example.rrks.kotlindemo.utils.JavaDemo
+import com.example.rrks.kotlindemo.utils.showToast
+import com.example.rrks.kotlindemo.utils.spaceToCamelCase
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
